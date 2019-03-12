@@ -1,0 +1,52 @@
+<!--pages/YiJianFanKui/index.wxml-->
+<view class="content">
+
+<!--文本域  -->
+<view class='text_class'>
+     <view class="weui-cells_after-title">
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+  <textarea class="weui-textarea" onInput="onTextAreaChange"
+         placeholder="请填写10字以上的意见或建议，您的意见将成为我们进步的动力！" style="width:100%;height: 8em;font-size:0.4rem;!important;" value="{{info}}" maxlength="{{noteMaxLen}}" focus />
+      </view>
+    </view>
+  </view>
+</view>
+ <view style='clear: both'></view>
+<view style='height:0.5rem;background:#f8f8f8'></view>
+ <view class='fabu1'>
+    <input class="input"  text placeholder="请输入您的联系方式或是邮箱号码"
+     onInput="passWdInput" maxlength='11' value='{{phone}}'/>
+ </view>
+ <view style='height:0.5rem;background:#f8f8f8'></view>
+<view style='clear: both'></view>
+<view class="comment1-description_t">
+    <view class="comment1-description">
+      <view class='content_flex'>
+        <view style='color:#666666;font-size:0.4rem'>清洁度</view>
+          <view class="star-pos" style="display:flex;flex-direction:row;">
+            <view class="stars  {{flag>=1? 'on': ''}}" onTap="changeColor1"></view>
+            <view class="stars  {{flag>=2? 'on': ''}}" onTap="changeColor2"></view>
+            <view class="stars  {{flag>=3? 'on': ''}}" onTap="changeColor3"></view>
+            <view class="stars  {{flag>=4? 'on': ''}}" onTap="changeColor4"></view>
+            <view class="stars  {{flag>=5? 'on': ''}}" onTap="changeColor5"></view>
+        </view>
+      </view>
+      <view class='content_flex'>
+        <view style='color:#666666;;font-size:0.4rem'>舒适度</view>
+          <view class="star-pos" style="display:flex;flex-direction:row;">
+            <view class="stars1  {{flag1>=1? 'on': ''}}" onTap="changeColort1"></view>
+            <view class="stars1  {{flag1>=2? 'on': ''}}" onTap="changeColort2"></view>
+            <view class="stars1  {{flag1>=3? 'on': ''}}" onTap="changeColort3"></view>
+            <view class="stars1  {{flag1>=4? 'on': ''}}" onTap="changeColort4"></view>
+            <view class="stars1  {{flag1>=5? 'on': ''}}" onTap="changeColort5"></view>
+        </view>
+      </view>
+  </view>
+</view>
+
+<!--发布按钮  -->
+<view class="btnSf">
+<button onTap="onSubmit">提交</button>
+</view>
+</view>

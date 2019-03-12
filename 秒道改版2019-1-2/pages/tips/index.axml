@@ -1,0 +1,19 @@
+<view class='content'>
+     <view class="box">
+           <view class="top">
+          
+           </view>
+
+           <view class="middle">
+                 <view class="middle_1">
+                      <view class="remind_1"><cover-image src="../images/tongguo.jpg" class="remind_img" /></view>
+                      <view class="remind_2">恭喜您实名认证成功!</view>
+                      <view class="remind_3">您已经实名认证成功了,现在去充值吧</view>
+                 </view>
+
+                 <view class="middle_3" onTap="onMoneyRecharge">去充值</view>
+
+           </view>
+        
+     </view>
+</view>

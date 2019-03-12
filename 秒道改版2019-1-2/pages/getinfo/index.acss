@@ -1,0 +1,55 @@
+  .content {
+	width: 100%;
+	height: 100vh;
+	background-color: #4582ff;
+}
+.content_con{
+  width: 100%;
+  height:80%;
+  float: left
+}
+.Img_top{
+ width:3rem;
+height:3rem;
+margin:0 auto;
+margin-top:0.6rem;
+  background-image: url(https://www.miaodaokeji.com/Public/images/miao_dao.png);
+  background-size: 100% 100%;
+  margin-bottom: 1rem;
+}
+.imgpic{
+  width: 100%;
+  height: 100%;
+}
+.text_cont{
+  width: 80%;
+  height: 3rem;
+
+  margin-top: 4rem;
+  margin: 0 auto;
+}
+.text_font{
+ width:100%;
+ height: 50%;
+text-align:center;
+color:#FFF;
+font-size:1rem;
+
+
+}
+.btn{
+    width: 80%;
+    height: 1rem;
+    background: rgb(255, 255, 255);
+    color: rgb(69, 130, 255);
+    border-radius: 10rem;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 0.4rem;
+    position: absolute;
+
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+
+}

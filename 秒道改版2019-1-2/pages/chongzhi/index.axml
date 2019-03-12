@@ -1,0 +1,27 @@
+<view class='container'>
+        <view class='banner_img'>
+          <cover-image class="imgpic" src='../images/chongzhi.png'></cover-image>
+        </view>
+    <view class='container_warpper'>
+
+        <view class='content_size'>
+            <view class='borderColor'></view>
+            <view>充值金额</view>
+            <view class='borderColor'></view>
+        </view>
+       <view class='chongzhiwarppr'>
+              <view  >
+                  <!-- style="{{item.id == id?'background:#1f7ce4;color:#FFF':'color:gray'}}" onTap='click' class='flex_none' a:for-items="{{reportTypeList}}" :key="{{index}}" data-id="{{item.id}}" -->
+                <!-- <view class='font-size'>充{{item.money}}元</view> -->
+                <!-- <view class='font-size colorsize'>送2元</view> -->
+              </view>
+        </view>
+          <view>
+       
+            <view class='outyajin'>
+              <view class='szie_top' onTap='wxpay'>充值</view>   
+            </view>
+           
+          </view>
+    </view>
+</view> 

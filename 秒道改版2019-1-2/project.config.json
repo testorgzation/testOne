@@ -1,0 +1,59 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.4",
+	"appid": "wxf5827e356250079e",
+	"projectname": "%E7%99%BB%E5%BD%95%E6%B3%A8%E5%86%8C3",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"items": []
+		},
+		"conversation": {
+			"current": -1,
+			"items": []
+		},
+		"plugin": {
+			"current": -1,
+			"items": []
+		},
+		"game": {
+			"currentL": -1,
+			"items": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"items": [
+				{
+					"id": -1,
+					"name": "手机注册",
+					"pathName": "pages/mobile/mobile",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "企业用户注册",
+					"pathName": "pages/company/company",
+					"query": ""
+				},
+				{
+					"id": 2,
+					"name": "扫码",
+					"pathName": "pages/getinfo/index",
+					"query": "id=15068"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,62 @@
+<view class="content">
+  <view class='content_warpper' onTap="controlColor1" id='{{Distinguish}}' style='background:{{bacColor}};box-shadow:0rem 0rem 0.2rem 0rem {{borderColor}}'>
+    <view class='content_szie' style='color:{{colorFont}}'>
+      <!-- 交{{yjnum}}元押金 -->
+      免押金 后付款
+
+    </view>
+    <view style='clear:both'></view>
+    <view class='retreat' style='color:{{colorFont}}'>芝麻分600以上可用</view>
+   
+  </view>
+  <view class='content_warpper' onTap="controlColor2" id='{{Distinguish}}' style='background:{{payBacColor}};box-shadow:0rem 0rem 0.2rem 0rem {{borderColorpay}}'>
+    <view class='content_szie' style='color:{{colorFontpay}}'>
+      <!-- 交{{yjnum}}元押金 -->
+     押金支付98元
+    </view>
+    <view style='clear:both'></view>
+    <view class='retreat' style='color:{{colorFontpay}}'>芝麻分不够 需要资金授权</view>
+    
+  </view>
+
+  <view class='content_p'>
+    <view class='content_money'>
+      <view class='content_left'></view>
+      <view class='font_size_l'>支付方式</view>
+      <view class='content_left'></view>
+    </view>
+  </view>
+
+  <view class='Footer_L'>
+    <view class='Footer_warpper'>
+      <view class='footer_T'>
+        <view class='left'>
+          <text style='font-size:0.5rem;color: #00bdef;' class="iconfont icon-alipay"> </text>
+        </view>
+        <view style='margin-left:0.8rem;'>支付宝支付</view>
+      </view>
+      <view class='xuang' style='margin-right:0.6rem;'>
+        <text style='font-size:0.5rem;color: #4482ff;' class="iconfont check-circle-fill icon-check-circle-fill"></text>
+      </view>
+    </view>
+  </view>
+  <button class='btn_bottom' onTap="{{buttap}}">{{buttname}}</button>
+</view>
+
+<view class='Floating_layer' style='display:{{heinY}}'>
+  <view class='Floating_layer_c'>
+    <view style='height:1.2rem;'></view>
+    <view class='text_f_l'>
+      <i style='color:#000;font-size:0.8rem;margin-left:0.5rem'>未找到设备，请重新点击开锁按钮</i>
+    </view>
+    <view class='text_f_l'>
+      <i style='color:#000;font-size:0.8rem;margin-left:0.5rem'> 确保手机定位服务（GPS）正常开启</i>
+    </view>
+    <view class='text_f_l'>
+      <i style='color:#000;font-size:0.8rem;margin-left:0.5rem'> 服务电话:{{fuwuphone}}</i>
+    </view>
+    <view class='hein_n' onTap='heinY' style='background:#4482ff;'>确认</view>
+  </view>
+</view>
+
+

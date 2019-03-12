@@ -1,0 +1,41 @@
+<!-- <view class="content">
+  <view class="box">
+    <view class="middle">
+    
+      <view class="middle_1">
+        <view class="mobile">
+          <i class="icon iconfont icon-gerenzhongxin-xuanzhong"></i>
+        </view>
+        <view class="mobile_input">
+          <input onInput="accountInput" class="input_1" name="test" class="input_2" placeholder="手机号" placeholder-style="color:#999;"  onInput="voteTitle"/>
+        </view>
+      </view>
+      <view class="middle_2">
+        <view class="message">
+          <i class="icon iconfont icon-mima"></i>
+        </view>
+		    <input onInput="pwdBlur"  class="input_2" placeholder="请输入密码" password="{{true}}"  onInput="voteTitlepass" placeholder-style="color:#999;" />
+			</view> 
+                    
+    </view>
+    <view class="middle_3">
+       <view class="forget_pass">忘记密码?</view>
+    </view>
+    <view class="middle_4" onTap="onlogin">登录</view>
+    <button open-type='getUserInfo'></button>
+    <view class="middle_5" onTap="onregister">注册</view>
+  </view>
+
+  <view class="bottom">
+    <view class="bottom_1">
+      <view class="bottom_1_1"></view>
+      <view class="bottom_1_2">其他方式登录</view>
+      <view class="bottom_1_3"></view>
+    </view>
+    <view class="bottom_2">
+            <view class="weixin" onTap="onfous"><i class="icon iconfont icon-weixin"></i></view>
+            <view class="zhifubao"><i class="icon iconfont icon-zhifubao"></i></view>
+    </view >
+  </view>
+        
+</view> -->

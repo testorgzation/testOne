@@ -1,0 +1,71 @@
+@import "./iconfont.acss";
+.contenr{
+  width: 100%;
+  height: 100vh;
+}
+.text_inpue{
+  width: 100%;
+  height: 1.8rem;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+.text_name{
+    width:90%;
+    height:0.8rem;
+    box-shadow:0px 4px 10px 0px rgba(233, 233, 233, 1);
+    margin-top:0.5rem;
+    padding-left: 10px;
+    font-size: 0.3rem;
+    color: #666;
+    letter-spacing:2px;
+    border-radius: 0.2rem;
+    margin-left: 3%;
+}
+.font_text{
+  position: absolute;
+  right: 10%;
+  top: 0.5rem;
+}
+.conten_l{
+  width:90%;
+  height: 2.6rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center
+}
+.text_arr{
+  height: 0.9rem;
+  letter-spacing:2px;
+  color: #b6b6b6;
+  border: 1px solid #eee;
+  font-size: 0.3rem;
+  line-height: 0.9rem;
+  border-radius:0.46rem;
+  text-align: center;
+
+}
+.left{
+  margin-left: 0.5rem;
+}
+.text_s{
+  width: 86%;
+  height:4rem;
+  padding-left: 0.2rem;
+   padding-top: 0.3rem;
+  border: 1px solid rgba(238, 238, 238,1);
+  border-radius: 0.2rem;
+  margin: 0.5rem auto;
+}
+.text_les{
+  width: 80%;
+  height: 1rem;
+  background: #4582FF;
+  text-align: center;
+  color: #FFF;
+  line-height: 1rem;
+  margin: 0 auto;
+  border-radius: 0.2rem;
+  margin-top: 0.4rem;
+}

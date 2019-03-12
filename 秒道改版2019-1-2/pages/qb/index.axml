@@ -1,0 +1,22 @@
+<view class='content'>
+    <view class="box">
+              <view class="middle">
+                    <view class="middle_1">
+                        <cover-image src="../images/money_Img.png"  class="bg_img" />  
+                    </view> 
+              </view>
+    </view>
+    <view class='bannert'>
+      <view class='text_style'>
+          <view class='text_top' onTap='chongzhi'>
+              <view style='text-indent:1rem'> 钱包余额</view>
+              <view style='margin-right:1rem'> {{balance}} <text  style='text-indent:-1rem;font-size:0.58rem' class="icon iconfont enter icon-enter"></text></view>
+          </view>
+      </view>
+    </view>
+
+     <!-- <view class='text_top_bottom'>
+              <view style='text-indent:1rem'> 微信免密</view>
+              <view style='margin-right:1rem'>已经开通 <i  style='text-indent:-1rem' class="icon iconfont enter icon-enter"></i></view>
+      </view> -->
+</view>

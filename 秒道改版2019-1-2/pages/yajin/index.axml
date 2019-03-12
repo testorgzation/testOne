@@ -1,0 +1,20 @@
+<view class='container'>
+    <view class='container_warpper'>
+      <view class='font_size' >{{balance}}</view>
+      <view class='size_style'>可以随时退，退还押金一般在3~5个工作日后到账</view>
+       <view class='outyajin' style="background:{{color}}">
+          <view class='szie_top'  onTap='{{clickButton}}'>退还押金</view>   
+       </view>
+    </view>
+    <view class='fuceng' style="display:{{displayBlock}}">
+      <view class='fuceng_warpper'>
+          <view class='conttent'>确定退还押金 ?</view>
+          <view class='font_s_b'>
+              <view style='width:40%;height:1rem;line-height:1rem;text-align:center' onTap='displayNone'>取消</view>
+              <view class='sont_s_f'></view>
+              <view onTap='pledge' style='color:#03a9f5;width:40%;height:1rem;line-height:1rem;text-align:center'>确定</view>
+          </view>
+      </view>
+    </view>
+   
+</view> 

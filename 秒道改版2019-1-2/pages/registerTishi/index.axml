@@ -1,0 +1,17 @@
+<view class='content'>
+ <view class="box">
+           <view class="top">  
+           </view>
+           <view class="middle">
+                 <view class="middle_1">
+                      <view class="remind_1"><cover-image src="../images/tongguo.jpg" class="remind_img" /></view>
+                      <view class="remind_2">恭喜您注册成功!</view>
+                      <view class="remind_3">您已经注册成功了,现在去实名认证吧</view>
+                 </view>
+
+                 <view class="middle_3" onTap="onlogin">实名认证</view>
+
+           </view>
+        
+     </view>
+</view>

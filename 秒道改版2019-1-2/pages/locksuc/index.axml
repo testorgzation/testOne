@@ -1,0 +1,27 @@
+<view class="box">
+          <view class='header'>
+                <view class='header_top'>
+                    <view class='font_size_l'><text class='iconfont icon-zhengque font_size'></text></view>
+                    <view class='money_t'>成功支付 : {{money}}元</view>
+                </view>
+                <view style='clear:both'></view>
+                <view class='foot_l'>
+                      <view class='foot_l_q'>
+                          <view class='text_color'>使用时长:</view> 
+                          <view class='text_color'>{{tmlen}}</view> 
+                      </view>
+                       <view class='foot_l_q'>
+                          <view class='text_color'>消费模式:</view> 
+                          <view class='text_color'>{{paytype}}</view>
+                      </view>
+                      
+                       <view class='foot_l_q'>
+                          <view class='text_color'>剩余金额:</view> 
+                          <view class='text_color'>{{tuinum}}元</view> 
+                      </view>
+                      
+                </view>
+          </view>
+</view>
+    
+

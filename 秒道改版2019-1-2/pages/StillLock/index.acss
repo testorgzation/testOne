@@ -1,0 +1,239 @@
+  @import "../login/style.acss";
+
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ .content {
+	width: 100%;
+	height:104vh;
+	background-color: #f5f5f5;
+        
+}
+ 
+   .box{
+             width:100%;
+         }
+         .icon{
+            font-size:6vw;color:rgba(0,0,0,0.5);
+         }
+         .top{
+            width:100%;height:12vw;display:flex;
+         }
+         .top_1{
+            width:33.3%;font-size:5.3vw;display:flex;
+         }
+         .top_1_1{
+            line-height:13vw;margin-left:2vw;
+         }
+         .top_1_2{
+            line-height:12.5vw;
+         }
+         .top_2{
+            width:33.3%;text-align:center;line-height:12vw;font-size:6vw;
+         }
+         .top_3{
+            width:33.3%;
+         }
+         .middle{
+            width:100%;
+            height:100vh;
+         }
+       
+            
+         .bg_img{
+             width:100%;
+             z-index: 0!important;
+         }
+         .middle_2{
+              margin-top:10vw;line-height:12vw;display:flex;height:12vw;
+         }
+         .middle_2_1{
+             width:20vw;
+             float: left;
+         }
+         .icon-shijian{
+            font-size:10vw;color:#FF8800;
+         }
+
+         .middle_2_2{
+             font-size:5vw;line-height:12vw;
+             text-align: center;
+             margin-top: 1rem;
+         }
+         .middle_3{
+             font-size:8vw;font-weight:bold;color:#FF8800;
+             text-align:center;margin-top:5vw;letter-spacing:1.2vw;
+         }
+         .middle_4{
+            width: 90%;
+            height: 1rem;
+            line-height: 1rem;
+            text-align: center;
+            background: rgb(68, 130, 255);
+            font-size: 0.4rem;
+            color: rgb(255, 255, 255);
+            border-radius: 0.2rem;
+            margin: 0 auto;
+         }
+
+.content_center{
+    width:7rem;
+    margin:0 auto;
+}        
+ .fuceng{
+  width: 14rem;
+  height: 2rem;
+  /* background:rgba(0, 0, 0, 0.5); */
+  position:fixed;
+  left: 0;
+  right: 0;
+  bottom:0;
+  top:16rem;
+  margin: auto;
+  border-radius: 0.5rem;
+  z-index: 100;
+}
+.font_sizetop{
+  color: red;
+  text-align: center;
+  font-size: 0.9rem
+}
+.font_sizebottom{
+  text-align: center;
+
+  color: #FFF;
+}
+.avtie{
+width:5rem ;
+height:3rem;
+z-index: 100;
+border-radius:1.5rem 0% 0% 1.5rem;
+position: fixed;
+bottom: 5rem;
+right: 0rem;
+background: #FFF;
+box-shadow: 0.2rem 0rem 0.2rem 0.2rem rgba(230, 230, 230, 1)
+}
+
+.Img_left{
+width:1rem;
+height:1rem;
+
+margin-top:1rem;
+margin-left:1rem;
+
+}
+
+.fter{
+  width: 90%;
+  height: 5rem;
+  background: #4482ff;
+  margin-left: 5%;
+  border-radius: 0.2rem;
+  float: left;
+  margin-top: 0.5rem;
+}
+.timer {
+  font-size:0.6rem;
+  width:2.7rem;
+  height:2.7rem;
+  line-height:2.7rem;
+  border-radius: 50%;
+  background: #FFF;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0.6rem;
+  box-shadow: 0rem 0rem 0.2rem 0.2rem #7aa7ff; 
+  border:6px solid #f44a6a;
+}
+.text_color{
+  text-align: center;
+  color: #FFF;
+  margin-top: 0.6rem;
+  font-size:0.4rem;
+}
+
+.beijingtu{
+
+  position: absolute;
+  top:0rem;
+  right: 0;
+  bottom: 0;
+  left:  0;
+  margin:  auto;
+
+}
+.border_Color{
+  width: 3rem;
+  height: 1px;
+  background: #FFF;
+}
+.color_text{
+  font-size: 1.2rem;
+  color:#000; 
+  margin-top: 1.5rem;
+}
+.content_color{
+  width: 12rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  color: #FFF;
+  margin-top: 1rem;
+}
+
+.footer_l_o{
+  width: 90%;
+  height: 2.8rem;
+  margin: 1rem auto 0px;
+  text-align: center;
+}
+.phone_text{
+  width:84%;
+  height: 0.9rem;
+  line-height: 2.8rem;
+  margin:0 auto;
+  background: #FFF;
+  border-radius: 0.1rem;
+  margin-bottom: 0.4rem;
+  box-shadow: 0px 0px 4px 4px #c4d5f8;
+  font-size: 0.4rem;
+}
+
+.footer_b{
+   width: 90%;
+  height: 2rem;
+  margin: 0 auto;
+  margin-top: 0.3rem;
+}
+.footer_b_c{
+  width: 100%;
+  height: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_b_l{
+  width: 34%;
+  height: 1px;
+  background: #dcdcdc;
+}
+.font_s_t{
+  font-size: 0.4rem;
+}
+.footer_t_s_l{
+  width: 100%;
+  height: 1rem;
+  line-height: 0.4rem;
+  text-align: center;
+  font-size: 0.3rem;
+  margin-top: 0.2rem;
+  color:#cfd9f2;
+}

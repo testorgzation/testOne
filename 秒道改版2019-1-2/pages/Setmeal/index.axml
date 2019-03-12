@@ -1,0 +1,78 @@
+<view class='content'>
+  <view class="box">
+    <view class="middle">
+      <view class="middle_2">
+
+        <view class="taocan" style='background:{{borderOne}};' onTap="hourTimemoney">
+          <view class="taocan_1">
+            <view class="taocan_1_1" style='color:{{fontColorOne}}'>小时计</view>
+            <view class="taocan_1_2" style='color:{{fontColorOnel}}'>超过15分钟按照小时计算</view>
+          </view>
+          <view class="taocan_2" style='color:{{fontColorOneO}}'>{{moneys}}元/时</view>
+          <view class="taocan_3"></view>
+        </view>
+
+        <view class="taocan" style='background:{{borderTow}};' onTap="dayTimemoney">
+          <view class="taocan_1">
+            <view class="taocan_1_1" style='color:{{fontColorTow}}'>整晚计</view>
+            <view class="taocan_1_2" style='color:{{fontColorTowl}}'>当日使用，次日12点结束</view>
+          </view>
+          <view class="taocan_2" style='color:{{fontColorTowy}}'>{{dataMoney}}元/晚</view>
+          <view class="taocan_3"></view>
+        </view>
+
+      </view>
+      <view class="middle_3">
+        <view class="middle_3_1"></view>
+      </view>
+      <!-- <view class='show_l' onTap="Instructions">
+        <i class="iconfont icon-wenhao" style="font-size:1rem;position:absolute;top:0.15rem;left:0rem;"></i>
+        <view>使用说明</view>
+      </view> -->
+    </view>
+    <view class='fuceng' style='display:none'>
+      <view class='footer_bootm'>
+        <view class='con_hein' style='height:6rem;margin-top:2rem;'>
+          <view class='footer-left'>
+            <view class='footer_conter'>
+              {{money1}}元/{{time_type}}
+            </view>
+          </view>
+          <view class='right'>按使用时长计费，请确保余额</view>
+        </view>
+        <view class='fot_money'>
+          <view class='footer_right one_le' onTap="go_pay_top">
+            取消
+          </view>
+          <view class='footer_right' onTap="go_pay">
+            购买
+          </view>
+        </view>
+
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class='avtie' onTap='personal'>
+  <view class='Img_left'></view>
+</view>
+
+
+<view class='Floating_layer' style='display:{{heinY}}'>
+ 
+  <view class='Floating_layer_c'>
+
+     <view class='tile'>提示</view>
+    <view class='text_f_l'>
+      <i style='color:#000;font-size:0.8rem;margin-left:0.5rem'>未找到设备，请重新点击开锁按钮</i>
+    </view>
+    <view class='text_f_l'>
+      <i style='color:#000;font-size:0.8rem;margin-left:0.5rem'> 确保手机定位服务（GPS）正常开启</i>
+    </view>
+    <view class='text_f_l'>
+      <i style='color:#000;font-size:0.8rem;margin-left:0.5rem'> 服务电话:{{fuwuphone}}</i>
+    </view>
+    <view class='hein_n' onTap='heinY' style='background:#4482ff;'>确认</view>
+  </view>
+</view>

@@ -1,0 +1,23 @@
+ 
+<view class="content">
+ <view class="box">
+           <view class="top">
+           </view>
+           <view class="middle">
+                 <view class="middle_1">
+                     <view class="mobile"><i class="icon iconfont icon-gerenzhongxinwoderenwubiaozhuntoumianxing"></i></view>
+                     <view class="mobile_input">
+                        <input type="text" class="input_1" placeholder="请输入您的姓名" maxlength="20" onInput="voteTitleOne" />
+                     </view>
+                 </view>
+                 <view class="middle_2">
+                     <view class="message"><i class="icon iconfont icon-icon-copy"></i></view>
+                     <view class="message_input">
+                        <input type="text" class="input_2" placeholder="请输入您的身份证号码" maxlength="20" onInput="voteTitleTow" />
+                     </view>
+                 </view>
+                 <view class="middle_3" onTap="ontips">认证</view>
+           </view>
+     </view>
+</view>
+    

@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view class="content">
+    <view class='header'>
+        <view class='logo_l'>
+            <cover-image class="imgas"  src='../images/logo_login.png'></cover-image>
+        </view>
+        <view class='text_color'>秒道共享陪护床</view>
+    </view>
+ 
+
+  <view class='main'>
+    <view class='center'>
+      <text decode="{{true}}" style="color:#4481fe">手机号&ensp;&ensp;&ensp;</text>
+      <input class='account' text onInput="getPhoneValue" value='{{phone}}' placeholder='请输入您的手机号码' placeholder-class="placeholderStyle" />
+    </view>
+
+    <view class='line'></view>
+
+    <view class='center'>
+      <text decode="{{true}}"  style="color:#4481fe">验证码&ensp;&ensp;&ensp;</text>
+      <input class='code' type='text' onInput='getCodeValue' value='{{code}}' placeholder-class="placeholderStyle" placeholder='请输入验证码' />
+      <text class='codeBtn' 
+      style='text-decoration:underline;' onTap='getVerificationCode' >{{codename}}</text>
+    </view>
+
+    <view class='line'></view>
+  
+  </view>
+    <button class='btn' onTap="save">绑定</button>
+<!-- 
+  <view class='footer_b_l'>
+      <cover-view>点击登录,即表示阅读并同意</cover-view>
+      <cover-view style='color:#4481fe'>《服务条款》</cover-view>
+   </view> -->
+ 
+</view>

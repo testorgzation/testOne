@@ -1,0 +1,4 @@
+<view>
+  <button onTap='lowLogin' a:if="{{canIUse }}">登录</button>
+  <button open-type="openSetting" onopensetting="MyopenSetting">打开设置页</button>
+</view>

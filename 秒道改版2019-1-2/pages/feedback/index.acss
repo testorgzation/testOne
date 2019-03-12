@@ -1,0 +1,105 @@
+/* pages/YiJianFanKui/index.wxss */
+ .content {
+	width: 100%;
+	height:100vh;
+	background-color: #FFF;
+}
+.comment1-description_t{
+ width: 100%;
+ height: 5rem;
+ margin: 0 auto;
+ background: #FFF;
+ float: left;
+ margin-top:0.2rem;
+ clear: both;
+ margin-bottom: 1rem;
+}
+.comment1-description{
+width: 86%;
+ height: 6rem;
+ margin: 0 auto;
+ background: #FFF;
+}
+.stars{
+    background:url("http://miaodaoiot.com/Public/images/huipingfen_03.png");
+    width: 40rpx;
+    height: 40rpx;
+    background-size: 40rpx 40rpx;
+    margin-left: 30rpx;
+    transition: 600ms;
+    background-repeat:no-repeat;
+
+}
+textarea {
+    padding: 0px 0px; 
+    text-indent: 20px
+}
+.stars1{
+    background:url("http://miaodaoiot.com/Public/images/huipingfen_03.png");
+    width: 40rpx;
+    height: 40rpx;
+     background-size: 40rpx 40rpx;
+    margin-left: 30rpx;
+    transition: 600ms;
+    background-repeat:no-repeat;
+}
+.on{
+    background:url("http://miaodaokeji.com/Public/images/xing_ok.png");
+    width: 50rpx;
+    height: 50rpx;
+    background-size: 50rpx 50rpx;
+    transition: 1s;
+    transform: scale(1,1)
+}
+.weui-cells_after-title{
+  width: 92%;
+  margin:0 auto;
+ overflow: hidden;
+}
+
+.btnSf{
+  width: 80%;
+ 
+  position: absolute;
+  /* left: 0rem;
+  top: 0rem;
+  right: 0rem; */
+  bottom: 1rem;
+  margin: 0 auto;
+  margin-left: 10%;
+}
+.btnSf button{
+    background: #f9bc01;
+    color: #fff;
+    border-radius: 2rem;
+}
+
+.btnSf button:active{
+  background: #f9bc01;
+  color: #fff;
+}
+.content_flex{
+  display: flex;
+  margin-top: 1rem;
+  float:left;
+}
+.text_class{
+  width: 100%;
+  height:auto;
+  background: #FFF; 
+   float: left;
+  margin-top: 0.5rem;
+  clear: both;
+}
+.fabu1{
+  width: 100%;
+  height: 1rem;
+   background: #FFF;
+}
+.input{
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  font-size: 0.4rem;
+  padding-left: 0.3rem;
+}

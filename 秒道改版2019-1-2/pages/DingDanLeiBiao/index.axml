@@ -1,0 +1,33 @@
+<include src="../../utils/refreshHeaderView.wxml"/>
+<include src="../../utils/loadMoreFooterView.wxml"/>
+<scroll-view class="scroll_container" scroll-y="true" style="position:fixed;width:100%;left:0;height:{{windowHeight}}px;top:{{loadMoreHeight == 0? refreshHeight:-loadMoreHeight}}px;bottom:{{loadMoreHeight}}px;"  onscroll="scroll" onscrolltolower="lower" onscrolltoupper="upper" onTouchStart="start" onTouchEnd="end" > 
+    <view style="width:100%;height:100%;margin:0 auto" onTouchMove="move">
+        <view style='width:100%;height:auto'>
+                <block a:for="{{words}}">  
+                    <view class="item-style">
+                        <view class='flex_top'>
+                        <view>
+                            <view style='font-size:0.8rem'>
+                                {{item.tm}}
+                            </view>
+                            <view style='font-size:0.8rem;float:left;margin-top:0.4rem;'>
+                                {{item.nickname}}
+                            </view>
+                        </view>
+                        <view style='font-size:1rem'>
+                              {{item.timespan}}
+                          </view>
+                          <!-- <view a:if="{{item.paytype == 2}}" style='font-size:1rem'>
+                              {{item.money}}元{{item.paylen}}晚
+                          </view> -->
+                          <!-- <view a:if="{{item.paytype == 1}}" style='font-size:1rem'>
+                              {{item.money}}元{{item.paylen}}小时
+                          </view> -->
+                        </view>
+                    </view>  
+            </block>  
+        </view>
+  
+    </view>
+</scroll-view>
+

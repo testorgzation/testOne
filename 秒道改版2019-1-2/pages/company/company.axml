@@ -1,0 +1,57 @@
+	<view class="content">
+	 <view class="box">
+           <view class="top">
+	         
+           </view>
+
+           <view class="middle">
+                 <view class="middle_1">
+                     <view class="mobile"><i class="icon iconfont icon-gerenzhongxin-xuanzhong"></i></view>
+                     <view class="mobile_input">
+                     	<input type="text" class="input_1" placeholder="请输入您的手机号" maxlength="18"  onInput="voteTitleOne" />
+                     </view>
+                 </view>
+                 <view class="middle_2">
+                     <view class="message">
+                        <i class="icon iconfont icon-xinxiduanxinxiaoxitixingyoujiansixinyouxiang"></i>
+                     </view>
+                     <view class="message_input">
+                        <input type="text" class="input_2" placeholder="请输入验证码" maxlength="20" onInput="voteTitleTow" />
+                     </view>
+                     <view class="send_message">获取验证码</view>
+                 </view>
+                 <view class="middle_3">
+                     <view class="pass"><i class="icon iconfont icon-mima"></i></view>
+                     <view class="pass_input">
+                        <input type="password" class="input_3" placeholder="请输入您的密码" maxlength="20" onInput="voteTitleThree" />
+                     </view>
+                 </view>
+                 <view class="middle_4">
+                      <view class="pass"><i class="icon iconfont icon-mima"></i></view>
+                      <view class="pass_input">
+                        <input type="password" class="input_3" placeholder="请再次输入您的密码" maxlength="20" onInput="voteTitleFour" />
+                      </view>
+                 </view>
+                 <view class="middle_5" onTap="onregister">注册</view>
+           </view>
+
+           <view class="bottom">
+                <view class="bottom_1">
+                    <view class="bottom_1_1"></view>
+                    <view class="bottom_1_2">其他方式登录</view>
+                    <view class="bottom_1_3"></view>
+                </view>
+                <view class="bottom_2">
+                
+                   
+                        <view class="weixin"><i class="icon iconfont icon-weixin"></i></view>
+                  
+                   
+                        <view class="zhifubao"><i class="icon iconfont icon-zhifubao"></i></view>
+                 
+                </view>
+           </view>
+        
+	 </view>
+	
+	</view>

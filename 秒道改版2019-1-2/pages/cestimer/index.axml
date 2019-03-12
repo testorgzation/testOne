@@ -1,0 +1,35 @@
+
+
+ 
+<view class='content'>
+     <view class="box">
+     
+
+           <view class="middle">
+                  <view class="middle_1"> 
+                        <!-- <cover-image src="../images/back_lock.png" class="bg_img" /> -->
+                  </view>
+                  <view class="middle_2">
+                    <view class='content_center'>
+                      <view class="middle_2_1"><i class="icon iconfont icon-shijian"></i></view>
+                      <view class="middle_2_2" onTap="btnclick">开锁计时</view>
+                    </view>
+                    
+                  </view>
+                  <view class="middle_3">
+                      <text>{{countdown}}</text>
+                  </view>
+               
+                  <view onTap='alsolock' style='margin-top:4rem;' class="middle_4" >还锁</view>  <!--onTap="btnclickyin"-->
+           </view>
+          <view class='fuceng' style='display:{{yingcneg}};'>
+                <view class='font_sizetop'> 还锁异常,请确认锁扣已推入锁体</view> 
+        </view>
+     </view>
+  
+
+</view>
+<view class='avtie' onTap='personal'> 
+<view class='Img_left'><cover-image src='../../images/personal.png'></cover-image></view>
+</view>
+ 

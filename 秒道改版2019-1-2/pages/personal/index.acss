@@ -1,0 +1,126 @@
+@import "../personal/iconfont.acss";
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.content{
+  width: 100%;
+  height: 100vh;
+  background: #f8f8f8;
+  float:left;
+
+}
+
+ .bannert{
+        width: 100%;
+        height:auto;
+        margin-top: 1rem;
+      }
+      .text_style{
+        width: 100%;
+        height: auto;
+        background: #FFF;
+        margin: 0 auto;
+        clear: both;
+      }
+      .text_top{
+         height:1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #FFF;
+          border-bottom: 1px solid rgba(238,238,238,1)
+      }
+      .text_top_bottom{
+         width: 100%;
+        height: 1rem;
+        background: #FFF;
+      border-bottom: 1px solid rgba(238,238,238,1);
+        border-top: 1px solid rgba(238,238,238,1);
+        margin-top: 0.2rem;
+          display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.6rem;
+      }
+      .cont-cent{
+        width: 100%;
+        height: 100%;
+        float: left;
+      }
+      .content_top{
+        width:100%;
+        height:4rem;
+        margin-top: -0.4rem;
+      }
+      .content_auto{
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        background: #FFF;
+        text-align: center;
+        border-radius: 0.2rem;
+        box-shadow: 0px 0px 4px 4px #dedede;
+      }
+      .main_top{
+        width: 2.8rem;
+        height: 2.8rem;
+        background: #FFF;
+        margin: 0 auto;
+        margin-top: 0.8rem;
+ 
+      }
+      .font_s{
+        font-size: 0.3rem;
+        height:1rem;
+        line-height:1rem;
+      }
+
+      .fuceng{
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.fuceng_warpper{
+  width: 80%;
+  height: 4rem;
+  background: #FFF;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin:  auto;
+  border-radius: 0.4rem;
+}
+.conttent{
+  width: 100%;
+  height: 3rem;
+
+  text-align: center;
+  line-height: 3rem;
+  font-size: 0.5rem;
+  font-weight: 600;
+  color: #03a9f5;
+  border-radius: 0.2rem 0.2rem 0rem 0rem;
+  border-bottom: 1px solid #e5e5ec;
+}
+.sont_s_f{
+  width: 1px;
+  height:1rem;
+  background: #d5d5d5;
+}
+.font_s_b{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1rem;
+  color: #000;
+}

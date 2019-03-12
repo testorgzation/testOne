@@ -1,0 +1,12 @@
+<view class="content">
+  <view class='content_con'>
+    <view class='Img_top'></view>
+    <view class='text_cont'>
+      <view class='text_font'>
+        <image class="imgpic" src='https://www.miaodaokeji.com/Public/images/miao_font_03.png'></image>
+      </view>
+
+    </view>
+    <button class='btn' open-type="getUserInfo" onTap="getUserInfo">登录</button>
+  </view>
+</view>

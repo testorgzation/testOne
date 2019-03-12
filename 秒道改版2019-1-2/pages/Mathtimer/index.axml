@@ -1,0 +1,47 @@
+
+
+ 
+<view class='content'>
+     <view class="box">
+            <view class="middle" style='z-index:100'>
+          <view class='beijingtu'>
+         <view class='fter'>
+            <view class='timer'>
+                <view style='color:#4482ff;'>
+                  <text>{{minutes}}:</text>
+                  <text>{{seconds}}:</text>
+                  <text>{{millseconds}}</text>
+                </view>
+            </view>  
+            <view class='text_color'>陪护计时</view>
+         </view>
+             <view style='clear:both'></view>
+        <view class='content_l'>
+            <view onTap='fault'>
+                <view class='img_left'>
+                    <cover-image class='img_left' src='../images/she_bei_03.png'></cover-image>
+                </view>
+                <view class='text_font'>设备故障</view>
+            </view>
+            <view onTap='pledge'>
+                <view class='img_left'>
+                    <cover-image class='img_left' src='../images/phone_ke_03.png'></cover-image>
+                </view>
+                <view class='text_font'>客服电话</view>
+            </view>
+            <view onTap='personal'>
+                <view class='img_left'>
+                    <cover-image class='img_left' src='../images/prens_r_03.png'></cover-image>
+                </view>
+                <view class='text_font'>会员中心</view>
+            </view>
+          </view>
+
+
+          <view onTap='{{alsolock}}' class="middle_4" >还锁</view>  <!--onTap="btnclickyin"-->
+        </view>
+                  
+      </view>
+    </view>
+</view>
+

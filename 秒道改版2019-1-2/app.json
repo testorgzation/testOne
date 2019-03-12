@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/getinfo/index",
+    "pages/Mathtimer/index",
+    "pages/TroubleCode/index",
+    "pages/login/login",
+    "pages/locksuc/index",
+    "pages/cesindex/index",
+    "pages/StillLock/index",
+    "pages/instruction/index",
+    "pages/mobile/index",
+    "pages/stillsuc/index",
+    "pages/deposit/index",
+    "pages/tips/index",
+    "pages/registerTishi/index",
+    "pages/Realname/index",
+    "pages/shouquan/index",
+    "pages/company/company",
+    "pages/MoneyRecharge/index",
+    "pages/feedback/index",
+    "pages/personal/index",
+    "pages/Setmeal/index",
+    "pages/yajin/index",
+    "pages/DingDanLeiBiao/index",
+    "pages/qb/index",
+    "pages/cestimer/index",
+    "pages/chongzhi/index"
+   
+    
+  ],
+    "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#ffffff",
+      "defaultTitle": "秒道",
+      "titleBarColor": "#4582ff"
+    },
+    "networkTimeout": {
+      "request": 10000,
+      "connectSocket": 10000,
+      "uploadFile": 10000,
+      "downloadFile": 10000
+    },
+    "debug": true
+    
+}

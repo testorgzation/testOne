@@ -1,0 +1,29 @@
+<view class='content'>
+ <view class="box">
+           <view class="middle">
+                 <view class="middle_1">
+                     <cover-image src="../images/chongzhi.jpg"  class="bg_img" />  
+                 </view>
+                 
+                 <view class="middle_2">
+                     <view class="select" a:for="{{list}}" a:key="*this">
+                        <view class="select_1" data-shop_id="{{item.id}}" onTap="wxpay">
+                            <span a:if="{{item.active == 1}}" class="select_1_1">{{item.active_money}} 元</span>
+                            <span a:if="{{item.active == 1}}" class="select_1_2">原价{{item.money}}元</span>
+                            <span a:if="{{item.active == 0}}" class="select_1_1">{{item.money}} 元</span>
+                        </view>
+                        <view class="select_2">充值币:{{item.token}}</view>
+                     </view>
+                    
+                 </view>
+                 
+                 <view class="middle_3" onTap="onpurchase">
+                      <!-- <view class="text_desc">这里是文字描述这里是文字描述这里是文字描述这里是文字描述这里是文字描述这里是文字描述</view>
+                      <view class="text_desc">这里是文字描述这里是文字描述这里是文字描述这里是文字描述这里是文字描述这里是文字描述</view> -->
+                 </view>
+            
+           </view>
+        
+     </view>
+    
+</view>
